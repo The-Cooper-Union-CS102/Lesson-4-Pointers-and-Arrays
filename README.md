@@ -1196,7 +1196,6 @@ char* (*(*foo[5])(char*))[];
 5. `(*(*foo[5])(char*))`: foo is an array of 5 pointers to functions taking character pointers returning a pointer to 
 6. `(*(*foo[5])(char*))[]`: foo is an array of 5 pointers to functions taking character pointers returning a pointer to an array
 7. `char* (*(*foo[5])(char*))[]`: foo is an array of 5 pointers to functions taking character pointers returning a pointer to an array of character pointers
-```
 # Advanced Input and Output
 
 Now that we know almost all there is to know about pointers, we can begin
